@@ -1,0 +1,86 @@
+body{
+    background-color: black;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+.navigation{
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.nav-right, .nav-left{
+    display: flex;
+    justify-content: space-between;
+    /* width: 50%; */
+}
+.nav-left{
+    
+}
+.main{
+    margin-top: 3%;
+    padding-left: 30px;
+}
+.nav-right{
+    /* flex-direction: row-reverse; */
+}
+.nav{
+    padding: 8px;
+    font-size: 25px;
+    padding-left: 15px;
+}
+.home{
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+.text{
+    font-size: 40px;
+    
+}
+.more{
+    color: yellow;
+    font-size: 12px;
+    /* margin-bottom: -33px; */
+}
+.content{
+    padding-top:80px;
+    
+    /* line-height: 10px; */
+    
+    
+    /* display: flex; */
+    /* justify-content: flex-start; */
+}
+.quote{
+    padding-top:10px;
+    padding-bottom: 10px;
+    font-size: 16px;
+    /* padding: 0px 0px; */
+    /* flex-wrap: nowrap; */
+    font-style: italic;
+}
+.image{
+   
+    /* flex-direction: row-reverse; */
+    /* display: flex; */
+    padding-right: 200px;
+    
+}
+p{
+    margin: 0em;
+}
+.image>img{
+    /* background-color: rgb(45, 16, 149); */
+    background: linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%);
+    width: 300px;
+    height: auto;
+    border: 5px solid rgb(255, 255, 255);
+    border-radius: 5px;
+}
+
+.what{
+    /* padding-top: 2%; */
+}
