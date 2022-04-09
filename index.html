@@ -13,61 +13,48 @@
 <link rel="stylesheet" href="./Assets/style.css">
 <body>
     <nav class="navigation">
-        <div class="nav-left" id="myDIV">
-            <!-- <a href="index.html"><div class="home nav active">Home</div></a>
-            <a href="../about/about.html"><div class="about nav">About</div></a>
-            <a href="../work/work.html"><div class="work nav">Work</div></a>
-            <a href="../blog/blog.html"><div id="nav" class="blog nav">Blog</div></a> -->
-            <button class="btn active" id="home">Home</button>
+        <div class="nav" id="myDIV">
+            <a href="#home-sec"><button class="btn active" >Home</button></a>
             <a href="#about-sec"><button class="btn" >About</button></a>
-            <button class="btn">Work</button>
-            <button class="btn">Blog</button>
-            <button class="btn">Contact</button>
-            <!-- <a href="../contact/contact.html"><div class="contact nav">Contact</div></a> -->
-        
+            <a href="#works-sec"><button class="btn">Work</button></a>
+            <a href="https://www.google.com"><button class="btn">Blog</button></a>
+            <a href="#contact-sec"><button class="btn">Contact</button></a>
         </div>
-        
+        <div class="icon-image">
+            <img src="Assets/images/me.png" style="height: 30px;width: auto; border: 4px;border-radius: 10px;">
+        </div>
     </nav>
-    <section class="main">
-        <div class="home">
-            <div class="content">
-                <p class="text">
-                    Hi there !
-                    <br>
-                    I'm SRV
-                </p>
-                <p class="quote">
-                    It's hard enough to find an 
-                    error in your code when you're 
-                    looking for it;<br>it's even harder when you've assumed your code is error-free.
-                </p>
-                <p class="more">
-                    Learn More >
-                </p>
-            </div>
+    <section class="sec" id="home-sec">
+        <div class="home-left">
+            <div class="home-left-box">
+                <h1 class="big-text">Hi there ! <br> I'm SRV</h1>
+                <i class="quote"> It's hard enough to find an error in your code when you're looking for it;<br>it's even harder when you've assumed your code is error-free.</i>
+                <br>
+                <span class="more">Learn More ></span>
+                <br><br><br><br>
+                <h1 class="big-text">What I do</h1>
+                <span class="more"> Learn More ></span>
+            </div>  
+        </div>
+        <div class="home-right">
             <div class="image">
                 <img src="Assets/images/me.png" alt="">
             </div>
         </div>
-        <div class="what">
-            <div class="whatido">
-                <p class="text">
-                    What I do 
-                </p>
-                <!-- <br> -->
-                <p class="more">
-                    Learn More >
-                </p>
-            </div>
-        </div>
     
     </section>
-    <section>
-        <div style="height: 1000px;"></div>
+    <section class="sec" id="about-sec">
+        <div class="more">About section</div>
     </section>
 
-    <section class="about-4sec" id="about-sec">
-        <section style="background-color:blue"></section>
+    <section class="sec" id="works-sec">
+        <div class="more">Works section</div>
+    </section>
+    <section class="sec" id="works-sec">
+        <div class="more">Works section</div>
+    </section>
+    <section class="sec" id="contact-sec">
+        <div class="more">Contact section</div>
     </section>
     <script>
         var header = document.getElementById("myDIV");

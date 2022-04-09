@@ -2,38 +2,46 @@ body{
     background-color: black;
     color: white;
     font-family: 'Poppins', sans-serif;
-    
-}
-.navigation{
-    width: 100%;
-    padding-left: 20px;
-    padding-right: 20px;
-    display: flex;
-    justify-content: space-between;
-    position: fixed;
-    background-color: black;
-}
-.nav-right, .nav-left{
-    display: flex;
-    justify-content: space-between;
-}
-.main{
     margin-top: 3%;
     padding-left: 30px;
+    
+}
+.sec{
+    height: 100vh;
+}
+.navigation{
+    margin-left: 20px;
+    /* padding-right: 20px; */
+    display: flex;
+    /* justify-content: space-between; */
+    position: fixed;
+    /* background-color: black; */
+}
+.nav{ 
+    justify-content: space-between;
+}
+.icon-image{
+    justify-content: right;
+}
+#home-sec{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.home-left {
+    margin-left: 30px;
+    margin-top: 100px;
 }
 .home{
     display: flex;
     justify-content: space-between;
 }
-.text{
+.big-text{
     font-size: 40px;
 }
 .more{
     color: yellow;
     font-size: 12px;
-}
-.content{
-    padding-top:80px;
 }
 .quote{
     padding-top:10px;
@@ -44,9 +52,6 @@ body{
 .image{
     padding-right: 200px;
 }
-p{
-    margin: 0em;
-}
 .image>img{
     background: linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%);
     width: 300px;
@@ -56,17 +61,25 @@ p{
     border-radius: 5px;
 }
 .btn {
-    border: none;
+    /* border: none; */
+    border-color: black;
     color: white;
-    outline: none;
+    /* outline: none; */
     padding: 10px 16px;
     background-color:rgb(0, 0, 0);
     cursor: pointer;
+    border-radius: 7px;
     font-size: 18px;
 }
-.active, .btn:hover {
+.active{
     color: yellow;
+    border-color: yellow; /*button border*/
 }
 .btn:hover {
     color: rgb(234, 255, 157);
+    border-color: rgb(234, 255, 157);/*button border*/
+    
+}
+a{
+    text-decoration: none;
 }
