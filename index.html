@@ -6,6 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SOURAV A K</title>
     <link rel="icon" href="./Assets/images/logo.png">
+    <!-- Smooth scroll script -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("a").on('click', function(event) {
+                if (this.hash !== "") {
+                    event.preventDefault();
+                    var hash = this.hash;
+                    $('html, body').animate({
+                     scrollTop: $(hash).offset().top
+                    }, 
+                    800, function(){
+                        window.location.hash = hash;
+                    });
+                }
+            });
+        });
+    </script>
 </head>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -27,13 +45,15 @@
     <section class="sec" id="home-sec">
         <div class="home-left">
             <div class="home-left-box">
-                <h1 class="big-text">Hi there ! <br> I'm SRV</h1>
+                <h1 class="big-text">Hi there ! <br> I'm <span>S<span>ou</span></span><span>R<span>a</span></span><span>V</span></h1>
+                <!-- <h1 class="big-text">Hi there ! <br> I'm <abbr title="SouRaV">SRV</abbr></h1> -->
+
                 <i class="quote"> It's hard enough to find an error in your code when you're looking for it;<br>it's even harder when you've assumed your code is error-free.</i>
                 <br>
-                <span class="more">Learn More ></span>
+                <a href="https://www.google.com" target="_blank"><span class="more"> Learn More ></span></a>
                 <br><br><br><br>
                 <h1 class="big-text">What I do</h1>
-                <span class="more"> Learn More ></span>
+                <a href="https://www.google.com" target="_blank"><span class="more"> Learn More ></span></a>
             </div>  
         </div>
         <div class="home-right">
@@ -50,12 +70,10 @@
     <section class="sec" id="works-sec">
         <div class="more">Works section</div>
     </section>
-    <section class="sec" id="works-sec">
-        <div class="more">Works section</div>
-    </section>
     <section class="sec" id="contact-sec">
         <div class="more">Contact section</div>
     </section>
+    <!-- Navigation active color change script -->
     <script>
         var header = document.getElementById("myDIV");
         var btns = header.getElementsByClassName("btn");
@@ -67,5 +85,25 @@
           });
         }
     </script>
+    <!-- on hover expand SRV to SouRaV-->
+    <style>
+
+        h1>span {
+            display:inline-block;
+        }
+
+        h1 span span {
+            display:inline-block;
+            max-width:0;
+            overflow:hidden;
+            transition:max-width 5s;
+            vertical-align:bottom;
+        }
+
+        h1:hover span span {
+            max-width:300px;
+        }
+    </style>
+    
 </body>
 </html>

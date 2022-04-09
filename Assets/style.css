@@ -4,24 +4,17 @@ body{
     font-family: 'Poppins', sans-serif;
     margin-top: 3%;
     padding-left: 30px;
-    
 }
 .sec{
     height: 100vh;
 }
 .navigation{
     margin-left: 20px;
-    /* padding-right: 20px; */
     display: flex;
-    /* justify-content: space-between; */
     position: fixed;
-    /* background-color: black; */
 }
 .nav{ 
     justify-content: space-between;
-}
-.icon-image{
-    justify-content: right;
 }
 #home-sec{
     display: flex;
@@ -30,7 +23,7 @@ body{
 }
 .home-left {
     margin-left: 30px;
-    margin-top: 100px;
+    margin-top: 130px;
 }
 .home{
     display: flex;
@@ -61,10 +54,8 @@ body{
     border-radius: 5px;
 }
 .btn {
-    /* border: none; */
     border-color: black;
     color: white;
-    /* outline: none; */
     padding: 10px 16px;
     background-color:rgb(0, 0, 0);
     cursor: pointer;
