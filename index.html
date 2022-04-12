@@ -6,8 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SOURAV A K</title>
     <link rel="icon" href="./Assets/images/logo.png">
+    
     <!-- Smooth scroll script -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    
     <script>
         $(document).ready(function(){
             $("a").on('click', function(event) {
@@ -25,11 +27,15 @@
         });
     </script>
 </head>
+
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="./Assets/style.css">
+<script src="./Assets/script.js"></script>
 <body>
+
+    
     <nav class="navigation">
         <div class="nav" id="myDIV">
             <a href="#home-sec"><button class="btn active" >Home</button></a>
@@ -42,37 +48,74 @@
             <img src="Assets/images/me.png" style="height: 30px;width: auto; border: 4px;border-radius: 10px;">
         </div>
     </nav>
-    <section class="sec" id="home-sec">
-        <div class="home-left">
-            <div class="home-left-box">
-                <h1 class="big-text">Hi there ! <br> I'm <span>S<span>ou</span></span><span>R<span>a</span></span><span>V</span></h1>
-                <!-- <h1 class="big-text">Hi there ! <br> I'm <abbr title="SouRaV">SRV</abbr></h1> -->
 
-                <i class="quote"> It's hard enough to find an error in your code when you're looking for it;<br>it's even harder when you've assumed your code is error-free.</i>
-                <br>
-                <a href="https://www.google.com" target="_blank"><span class="more"> Learn More ></span></a>
-                <br><br><br><br>
-                <h1 class="big-text">What I do</h1>
-                <a href="https://www.google.com" target="_blank"><span class="more"> Learn More ></span></a>
-            </div>  
-        </div>
-        <div class="home-right">
-            <div class="image">
-                <img src="Assets/images/me.png" alt="">
+    <section class="sec" id="home-sec">
+        <div class="box" >
+            <div class="home-left">
+                <div class="home-left-box">
+                    <h1 class="big-text">Hi there ! <br> I'm <span>S<span>ou</span></span><span>R<span>a</span></span><span>V</span></h1>
+                    <br>
+                    <div class="typewriter">
+                        <span id="anim"></span><span id="shuffle"></span>
+                    </div>
+                    <!-- <div id="typewriter" style="color: red;"></div> -->
+                    <!-- <div class="typewriter">
+                        <span class="type clip" style="--n:50;"> It's hard enough to find an error in your code when you're looking for it; it's even harder when you've assumed your code is error-free.</span>
+                    </div> -->
+
+
+                    <a href="https://www.google.com" target="_blank"><span class="more"> Learn More ></span></a>
+                    <br><br><br><br>
+                    <h1 class="big-text">What I do</h1>
+                    <a href="https://www.google.com" target="_blank"><span class="more"> Learn More ></span></a>
+                </div>  
             </div>
-        </div>
-    
+            <div class="home-right">
+                <div class="image">
+                    <img src="Assets/images/me2.jpg" alt="">
+                </div>
+            </div>
+    </div>
     </section>
+
     <section class="sec" id="about-sec">
-        <div class="more">About section</div>
+        <!-- <div class="quote">About section</div> -->
+        <div class="box">
+        <div class="text">
+            #Me <br>
+            I'm Sourav <br><br>
+            #College <br>
+            Third year <b style="display: inline; font-size: 1.2em;">Computer Science and Engineering</b> student <br>Mar Athanasius College of Engineering (MACE), Kothamangalam<br>
+            
+            <br>
+            #Home <br>
+            Kozhikode, Kerala <br>
+            <br>
+            #Current Status <br>
+            Currently busy with some Works <br>
+            Pending works : 3 <br>
+
+        </div>
+
+        </div>
     </section>
 
     <section class="sec" id="works-sec">
+        <div class="box">
+            <div class="text">First test Work : <a href="https://www.dogs.souravak.in"> Dogs Days</a></div>
+            <div class="text">CodeChef MACE Chapter : <a href="https://codechef.macehub.in/">CodeChefMACEChapter</a></div>
+            <div class="text">Portfolio : <a href="https://souravak.in">souravak.in</a></div>
+            <div class="text">Mini Project with PHP : <a href="https://github.com/Souravak/prison-management">Prison Management System(PRISM)</a></div>
+            <div class="text">Demo Project Codes : <a href="https://github.com/Souravak/prison-management">Fun Time</a></div>
+            <div class="text">TNP Coding Solutions : <a href="https://github.com/Souravak/TNP">TNP</a></div>
+        </div>
         <div class="more">Works section</div>
     </section>
+
     <section class="sec" id="contact-sec">
         <div class="more">Contact section</div>
     </section>
+
     <!-- Navigation active color change script -->
     <script>
         var header = document.getElementById("myDIV");
@@ -85,6 +128,7 @@
           });
         }
     </script>
+
     <!-- on hover expand SRV to SouRaV-->
     <style>
 
@@ -104,6 +148,6 @@
             max-width:300px;
         }
     </style>
-    
+
 </body>
 </html>
