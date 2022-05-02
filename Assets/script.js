@@ -3,8 +3,10 @@ var $ = function(id) {
   };
   var inc = 0;
   var out = 0;
-  var str = " It's hard enough to find an error in your code when you're looking for it; it's even harder when you've assumed your code is error-free.";
-  var chars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ123456789@$%&';
+  // var str = " It's hard enough to find an error in your code when you're looking for it; it's even harder when you've assumed your code is error-free.";
+  var str = " One day I won't have to think twice about the Price ...";
+
+  var chars = 'RENOreno';
   var t;
   
   var anim = function() {
