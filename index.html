@@ -12,14 +12,7 @@
     
     <title>SOURAV A K</title>
     <link rel="icon" href="./Assets/images/logo.png">
-    
-
-    
-    
-    <!-- Smooth scroll script -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-
-    
     <script>
         $(document).ready(function() {
             $("a").on('click', function(event) {
@@ -44,127 +37,48 @@
 <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="./Assets/style.css">
 <script src="./Assets/script.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 
 <body>
-
-
-    <nav class="navigation">
-        <div class="nav" id="myDIV">
-            <a href="#home-sec"><button class="btn active" >Home</button></a>
-            <a href="#about-sec"><button class="btn" >About</button></a>
-            <a href="#works-sec"><button class="btn">Work</button></a>
-            <a href="https://www.google.com"><button class="btn">Blog</button></a>
-            <a href="#contact-sec"><button class="btn">Contact</button></a>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <a class="navbar-brand" href="#">SRV</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link" href="#">About</a>
+            <a class="nav-item nav-link" href="#">Work</a>
+            <a class="nav-item nav-link disabled" href="#">Blog</a>
+            <a class="nav-item nav-link" href="#">Connect</a>
+          </div>
         </div>
-        <div class="icon-image">
-            <img src="Assets/images/me.png" style="height: 30px;width: auto; border: 4px;border-radius: 10px;">
+      </nav>
+    <marquee behavior="" direction=""><h1 class="fs-1 fw-bold">Page Under maintanace</h1></marquee>
+    
+    <!-- Hero section -->
+    <section class="hero">
+        <div class="hero-content">
+            <p class="fs-1 fw-bold">Hey there!</p>
+            <p class="fs-1 fw-bold">I AM Sourav A K</p>
+            <p class="fs-4 fw-lighter">Full Stack Developer</p>
         </div>
-    </nav>
-
-    <section class="sec" id="home-sec">
-        <div class="box">
-            <div class="home-left">
-                <div class="home-left-box">
-                    <h1 class="big-text">Hi there ! <br> I'm <span>S<span>ou</span></span><span>R<span>a</span></span><span>V</span></h1>
-                    <br>
-                    <div class="typewriter">
-                        <span id="anim"></span><span id="shuffle"></span>
-                    </div>
-                    <!-- <div id="typewriter" style="color: red;"></div> -->
-                    <!-- <div class="typewriter">
-                        <span class="type clip" style="--n:50;"> It's hard enough to find an error in your code when you're looking for it; it's even harder when you've assumed your code is error-free.</span>
-                    </div> -->
-
-
-                    <a href="https://www.google.com" target="_blank"><span class="more"> Learn More ></span></a>
-
-                    <h1 class="big-text">What I do</h1>
-                    <a href="https://www.google.com" target="_blank"><span class="more"> Learn More ></span></a>
-                </div>
-            </div>
-            <div class="home-right">
-                <div class="image">
-                    <img src="Assets/images/me3.jpg" alt="">
-                </div>
-            </div>
+        <div class="hero-image">
+            <img src="Assets/images/me3.jpg" alt="">
         </div>
     </section>
-
     <!-- About section -->
-    <section class="sec" id="about-sec">
-        <!-- <div class="quote">About section</div> -->
-        <!-- <iframe src="https://www.linkedin.com/in/srvak" frameborder="0"></iframe> -->
-        
-        <div class="box">
-            <div class="text">
-                #Me <br> I'm Sourav <br><br> #College <br> Third year <b style="display: inline; font-size: 1.2em;">Computer Science and Engineering</b> student <br>Mar Athanasius College of Engineering (MACE), Kothamangalam<br>
-
-                <br> #Home <br> Kozhikode, Kerala <br>
-                <br> #Current Status <br> Currently busy with some Works <br> Pending works : 3 <br>
-
-            </div>
-
-        </div>
-        <!-- <div class="box" style="background-color: red;"> -->
-
-        </div>
-        <!-- <div class="box" style="background-color: red;"> -->
-
+    <section class="about">
+        <p class="fs-4 fw-light">I am a web enthusiasist</p>
     </section>
-
-    <!-- Works section  -->
-    <section class="sec" id="works-sec">
-        <div class="box">
-            <div class="text">First test Work : <a href="https://www.dogs.souravak.in"> Dogs Days</a></div>
-            <div class="text">CodeChef MACE Chapter : <a href="https://codechef.macehub.in/">CodeChefMACEChapter</a></div>
-            <div class="text">Portfolio : <a href="https://souravak.in">souravak.in</a></div>
-            <div class="text">Mini Project with PHP : <a href="https://github.com/Souravak/prison-management">Prison Management System(PRISM)</a></div>
-            <div class="text">Demo Project Codes : <a href="https://github.com/Souravak/prison-management">Fun Time</a></div>
-            <div class="text">TNP Coding Solutions : <a href="https://github.com/Souravak/TNP">TNP</a></div>
-            <div class="text">AIRPMO Front End : <a href="https://orca-app-2pv37.ondigitalocean.app/">airpmo.co</a> </div>
-            <div class="text">MINI Project ANPR </div>
-
-        </div>
-        <div class="more">Works section</div>
-    </section>
-
-    <!-- Contact section  -->
-    <section class="sec" id="contact-sec">
-        <div class="more">Contact section</div>
-    </section>
-
-    <!-- Navigation active color change script -->
-    <script>
-        var header = document.getElementById("myDIV");
-        var btns = header.getElementsByClassName("btn");
-        for (var i = 0; i < btns.length; i++) {
-            btns[i].addEventListener("click", function() {
-                var current = document.getElementsByClassName("active");
-                current[0].className = current[0].className.replace(" active", "");
-                this.className += " active";
-            });
-        }
-    </script>
-
-    <!-- on hover expand SRV to SouRaV-->
-    <style>
-        h1>span {
-            display: inline-block;
-        }
-        
-        h1 span span {
-            display: inline-block;
-            max-width: 0;
-            overflow: hidden;
-            transition: max-width 5s;
-            vertical-align: bottom;
-        }
-        
-        h1:hover span span {
-            max-width: 300px;
-        }
-    </style>
-
 </body>
 
 </html>

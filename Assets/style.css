@@ -1,108 +1,23 @@
 html{
     scroll-behavior: smooth;
-    /* overflow: hidden */
 }
 body{
-    background-color: black;
-    color: white;
-    font-family: 'Poppins', sans-serif;
-    margin-top: 3%;
-    /* padding-left: 2%; */
-    
+    overflow-x : hidden; 
 }
-.sec{
-    height: 110vh;
-    padding-top: 5%;
+body::-webkit-scrollbar {
+    display: none;
 }
-.navigation{
-    margin-left: 20px;
-    display: flex;
+.navbar{
     position: fixed;
 }
-.nav{ 
-    justify-content: space-between;
-}
-.box{
+.hero{
     display: flex;
-    justify-content: space-between;
-    height: 60%;
-    margin: 5% 3%;
-    /* margin-top: 5%; */
-    /* margin-top: 200px; */
-    /* margin-top: 5%; */
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
 }
-.home-left {
-    margin-left: 30px;
-    /* margin-top: 130px; */
-}
-.home{
-    display: flex;
-    justify-content: space-between;
-}
-.big-text{
-    /* margin-top: 11%; */
-    font-size: 40px;
-    margin-bottom: 2%;
-}
-.more{
-    color: yellow;
-    font-size: 12px;
-}
-.quote{
-    padding-top:10px;
-    padding-bottom: 10px;
-    font-size: 16px;
-    font-style: italic;
-}
-.image{
-    padding-right: 60px;
-}
-.image>img{
-    background: linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%);
-    width: 300px;
-    height: auto;
-    /* margin-top: 100px; */
-    border: 5px solid rgb(255, 255, 255);
-    border-radius: 5px;
-}
-.btn {
-    border-color: black;
-    color: white;
-    padding: 10px 16px;
-    background-color:rgb(0, 0, 0);
-    cursor: pointer;
-    border-radius: 7px;
-    font-size: 18px;
-}
-.active{
-    color: yellow;
-    border-color: yellow; /*button border*/
-}
-.btn:hover {
-    color: rgb(234, 255, 157);
-    border-color: rgb(234, 255, 157);/*button border*/
-    
-}
-a{
-    text-decoration: none;
-}
-.text{
-    display: block ;
-    padding: 3%;
-    color: aliceblue;
-    /* margin-top: 15%; */
-}
-
-/* Typewriter*/
-@import url(https://fonts.googleapis.com/css?family=Electrolize);
-.typewriter {
-  margin: 0;
-  padding: 0;
-  font-family: monospace;
-  font-size: 1.6em;
-  /* background-color: hsla(0, 0%, 10%, 1); */
-  color: #00ffff;
-  width: 900px;
-  /* overflow: hidden; */
+.hero-image img{
+    height: 20rem;
+    width: auto;
 }
 
