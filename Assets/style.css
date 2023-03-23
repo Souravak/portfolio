@@ -1,5 +1,5 @@
 html{
-    scroll-behavior: smooth;
+    /* scroll-behavior: smooth; */
 }
 body{
     overflow-x : hidden; 
@@ -8,7 +8,6 @@ body::-webkit-scrollbar {
     display: none;
 }
 .navbar{
-    position: fixed;
 }
 .hero{
     display: flex;
@@ -17,7 +16,45 @@ body::-webkit-scrollbar {
     height: 100vh;
 }
 .hero-image img{
-    height: 20rem;
+    height: 28rem;
     width: auto;
 }
+.about{
+    height: 100vh;
+    background: rgb(231, 222, 222);
+}
+.about-image{
+    height: 28rem;
+    width: auto;
+}
+.about-content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.skills{
+    height: 100vh;
+}
 
+
+
+/* skills section */
+.skills{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    
+    
+}
+.skill{
+    background: #6d8bef;
+    display: flex;
+    flex-direction: column;
+    width: 10rem;
+    height: 5rem;
+    border-radius: 5px;
+    align-items: center;
+}
+.progress{
+    width: 8rem;
+}

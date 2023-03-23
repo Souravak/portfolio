@@ -44,7 +44,10 @@
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
 <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
-
+<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> -->
+  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script> -->
+  <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> -->
+<!-- <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>   -->
 <body>
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
@@ -55,13 +58,13 @@
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav">
             <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-            <a class="nav-item nav-link" href="#">About</a>
+            <a class="nav-item nav-link" href="#about">About</a>
             <a class="nav-item nav-link" href="#">Work</a>
             <a class="nav-item nav-link disabled" href="#">Blog</a>
             <a class="nav-item nav-link" href="#">Connect</a>
           </div>
         </div>
-      </nav>
+    </nav>
     <marquee behavior="" direction=""><h1 class="fs-1 fw-bold text-danger">Page Under maintenance</h1></marquee>
     
     <!-- Hero section -->
@@ -70,15 +73,79 @@
             <p class="fs-1 fw-bold">Hey there!</p>
             <p class="fs-1 fw-bold">I AM Sourav A K</p>
             <p class="fs-4 fw-lighter">Full Stack Developer</p>
+            <a class="btn btn-outline-primary" href="mailto:souravak211@gmail.com">Hire Me</a>
+            <a class="btn btn-outline-primary" href="https://drive.google.com/file/d/16tW8eVQoCSSNvRLWBXOGNI__vSpr2KIG/view" target="_blank">Resume</a>
         </div>
         <div class="hero-image">
-            <img src="Assets/images/me3.jpg" alt="">
+            <img src="./Assets/images/me3.jpg" alt="">
         </div>
     </section>
     <!-- About section -->
-    <section class="about">
-        <p class="fs-4 fw-light">I am a web enthusiasist</p>
+    <section name="about" class="about">
+        <h1 class="fs-1 fw-bold text-center text-black p-3">About</h1>
+        <div class="about-content">
+            <img class="about-image" src="./Assets/images/rd7xf8-removebg.png" alt="">
+            <div class="about-content-data">
+                <p class="fs-4 fw-light">Working as a Web Developer at airpmo</p>
+                <p class="fs-5 fw-light">Python | Web enthusiasist</p>
+                <p class="fs-5 fw-light">Pursuing B.tech in Computer Science and Engineering</p>
+                <p class="fs-5 fw-light">Active Member of CodeChef MACE Chapter</p>
+                <a class="btn btn-outline-primary px-3" href="https://drive.google.com/file/d/16tW8eVQoCSSNvRLWBXOGNI__vSpr2KIG/view" target="_blank">Resume</a>
+            </div>            
+        </div>
     </section>
+    <!-- Skills section -->
+    <section name="skills" class="skills">
+        <div class="skill">
+            <p class="fs-4 fw-light text-black-50 text-center">Web</p>
+            <div class="progress">
+                <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:40%">
+                  40%
+                </div>
+            </div>
+        </div>
+        <div class="skill">
+            <p class="fs-4 fw-light text-black-50 text-center">Python</p>
+            <div class="progress">
+                <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:40%">
+                  40%
+                </div>
+            </div>
+        </div>
+        <div class="skill">
+            <p class="fs-4 fw-light text-black-50 text-center">React</p>
+            <div class="progress">
+                <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:40%">
+                  40%
+                </div>
+            </div>
+        </div>
+        <div class="skill">
+            <p class="fs-4 fw-light text-black-50 text-center">C/C++</p>
+            <div class="progress">
+                <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:40%">
+                  40%
+                </div>
+            </div>
+        </div>
+        <div class="skill">
+            <p class="fs-4 fw-light text-black-50 text-center">SQL</p>
+            <div class="progress">
+                <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:40%">
+                  40%
+                </div>
+            </div>
+        </div>
+        <div class="skill">
+            <p class="fs-4 fw-light text-black-50 text-center">PHP</p>
+            <div class="progress">
+                <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:40%">
+                  40%
+                </div>
+            </div>
+        </div>
+    </section>
+
 </body>
 
 </html>
